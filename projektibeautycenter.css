@@ -1,0 +1,110 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffcccc;
+}
+
+header {
+    background-color: #ffcccc;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
+   
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#home,
+#services,
+#about,
+#contact {
+    margin: 42px 0; 
+}
+
+#home {
+    background-color: #ffe6e6;
+}
+
+#services {
+    background-color: #ffcccc;
+}
+
+.service {
+    background-color: white;
+    margin: 20px; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+li a:hover {
+    color: pink;
+}
+
+#about {
+    background-color: #ffe6e6;
+}
+
+#contact {
+    background-color: #ffcccc;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2)
+}
+
+footer {
+    background-color: #ffcccc;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h2 {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);  
+}
+    
